@@ -1,0 +1,38 @@
+.menu a{
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: gray;
+    line-height: 40px;
+    border: 1px solid;
+    border-color: blue;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    text-align: center;
+    height: 30px;
+    width: 140px;}
+
+.menu ul{
+    list-style: none;
+    }
+
+.menu li{
+    float: left;
+    }
+
+.menu ul li {
+    width: 150px;
+    height: 75px;
+    }
+
+.menu ul ul li{     
+    position: relative;
+    left: -37px;
+    top: 20px;
+    display: none;
+}
+
+.menu ul li:hover ul li{
+    display: block;
+ }   
